@@ -34,5 +34,6 @@ public class Basket : MonoBehaviour
 
         int score = int.Parse(scoreText.text) + 1;
         scoreText.text = score.ToString();
+        Score.score += 1;
     }
 }
